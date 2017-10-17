@@ -1,4 +1,3 @@
-# -*- mode: Python;-*-
 """
 Code for computing edit distances.
 """
@@ -6,7 +5,6 @@ Code for computing edit distances.
 import sys
 import operator
 
-# Cost is basically: was there a match or not.
 # The other numbers are cumulative costs and matches.
 
 def lowest_cost_action(ic, dc, sc, im, dm, sm, cost):
